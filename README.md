@@ -62,3 +62,49 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 PS D:\Git Demo\Sinchana-Demo> <br>
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\Git Demo\Sinchana-Demo> git add index.html
+PS D:\Git Demo\Sinchana-Demo> git status        
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+PS D:\Git Demo\Sinchana-Demo> git add.          
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS D:\Git Demo\Sinchana-Demo> git add .
+PS D:\Git Demo\Sinchana-Demo> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   index.html
+<br>
+PS D:\Git Demo\Sinchana-Demo> git commit -m "Add new Paragraph"
+[main 82b7399] Add new Paragraph
+ 2 files changed, 62 insertions(+), 1 deletion(-)
+ create mode 100644 index.html
+PS D:\Git Demo\Sinchana-Demo> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")

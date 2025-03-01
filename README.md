@@ -108,3 +108,40 @@ Changes not staged for commit:
         modified:   README.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
+<br>
+<br>
+PS D:\Git Demo\Sinchana-Demo> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\Git Demo\Sinchana-Demo> git add .
+PS D:\Git Demo\Sinchana-Demo> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        modified:   index.html
+
+PS D:\Git Demo\Sinchana-Demo> git commit -m "Add new line"
+[main 70d4b23] Add new line
+ 2 files changed, 51 insertions(+), 1 deletion(-)
+PS D:\Git Demo\Sinchana-Demo> git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 746 bytes | 746.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Sinchana-K28/Sinchana-Demo.git
+   82b7399..70d4b23  main -> main
+PS D:\Git Demo\Sinchana-Demo> 
